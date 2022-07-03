@@ -1,3 +1,6 @@
+./betty-doc.pl 4-puts.c                                                        
+./betty-style.pl 4-puts.c
+
 #include <stdio.h>
 /**
  *
