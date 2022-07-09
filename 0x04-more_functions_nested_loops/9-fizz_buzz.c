@@ -1,9 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - entry point
  *
  * Return: void
  */
+
 int main(void)
 {
         int p = 100;
@@ -16,10 +17,12 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
+
 		else if (i % 3 == 0)
 		{
 			printf("Fizz ");
 		}
+
 		else if (i % 3 == 0)
 
 		{
@@ -28,13 +31,16 @@ int main(void)
 			else
 				printf("Buzz");
 		}
+
 		else
 		{
 			printf("%i ", i);
 		}
+
 		i++;
 	}
 	printf("\n");
+
 	return (0);
 }
 
