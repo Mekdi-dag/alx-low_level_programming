@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-
-	int p = 100;
+        int p = 100;
 	int i;
 
 	i = 1;
@@ -15,28 +14,27 @@ int main(void)
 	{
 		if (i % 3 == 0 && i == 0)
 		{
-			printf ("FizzBuzz ");
+			printf("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
-			printf ("Fizz ");
+			printf("Fizz ");
 		}
 		else if (i % 3 == 0)
 
 		{
 			if (i < p)
-				printf ("Buzz ");
+				printf("Buzz ");
 			else
-				printf ("Buzz");
+				printf("Buzz");
 		}
 		else
 		{
-			printf ("%i ", i);
+			printf("%i ", i);
 		}
 		i++;
 	}
-	printf ("\n");
-
+	printf("\n");
 	return (0);
 }
 
