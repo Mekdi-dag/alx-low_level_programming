@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * _srtlen - Function that returns the length of a string
- * @s: this is the input string
+ * swap_int - function that swaps tha values of two integers.
+ * @a: this is the first entry
+ * @b: this is the second entry
  *
- * Return: Lenngth of the string
  */
-int _strlen(char *s)
+void swap_int(int *a, int *b)
 {
-	int index;
+	int changed;
 
-	for (index = 0; s[index] != '\0' ; index++)
-		;
-		return (index);
+	changed = *a;
+	*a = *b;
+	*b = changed;
 }
